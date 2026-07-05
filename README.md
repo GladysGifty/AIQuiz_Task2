@@ -20,7 +20,7 @@ https://beautiful-queijadas-950d5a.netlify.app/
 
 The detailed project report is available in this repository:
 
-**Task2_AI_Quiz_Management_System_Report.pdf**
+**Task_2_AI_Quizz_Management_System_Documentation.pdf**
 
 ---
 
