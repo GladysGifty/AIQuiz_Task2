@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Teacher Panel</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>👨‍🏫 Teacher Panel</h1>
+
+<p class="subtitle">
+Manage Subjects and Quiz Questions
+</p>
+
+<div class="card">
+
+<!-- SUBJECT MANAGEMENT -->
+
+<h2>📚 Subject Management</h2>
+
+<button id="addSubjectBtn">
+➕ Add Subject
+</button>
+
+<h3>Available Subjects</h3>
+
+<ul id="subjectList"></ul>
+
+<hr>
+
+<!-- QUESTION MANAGEMENT -->
+
+<h2>❓ Add Question</h2>
+
+<label>Select Subject</label>
+
+<select id="questionSubject"></select>
+
+<label>Difficulty</label>
+
+<select id="questionDifficulty">
+
+<option>Easy</option>
+<option>Medium</option>
+<option>Hard</option>
+
+</select>
+
+<label>Question</label>
+
+<input
+type="text"
+id="questionText"
+placeholder="Enter Question">
+
+<label>Option A</label>
+
+<input
+type="text"
+id="optionA"
+placeholder="Option A">
+
+<label>Option B</label>
+
+<input
+type="text"
+id="optionB"
+placeholder="Option B">
+
+<label>Option C</label>
+
+<input
+type="text"
+id="optionC"
+placeholder="Option C">
+
+<label>Option D</label>
+
+<input
+type="text"
+id="optionD"
+placeholder="Option D">
+
+<label>Correct Answer</label>
+
+<select id="correctAnswer">
+
+<option>A</option>
+<option>B</option>
+<option>C</option>
+<option>D</option>
+
+</select>
+
+<button id="saveQuestionBtn">
+
+💾 Save Question
+
+</button>
+
+<hr>
+
+<!-- EXPORT / IMPORT -->
+
+<button id="exportBtn">
+📤 Export Question Bank
+</button>
+
+<br><br>
+
+<input
+type="file"
+id="importFile"
+accept=".json">
+
+<hr>
+
+<!-- SEARCH -->
+
+<h2>📋 Question Bank</h2>
+
+<input
+type="text"
+id="searchBox"
+placeholder="🔍 Search Questions...">
+
+<br><br>
+
+<div id="questionList">
+
+No questions added yet.
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
