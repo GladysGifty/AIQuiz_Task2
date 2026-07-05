@@ -12,7 +12,7 @@ https://beautiful-queijadas-950d5a.netlify.app/
 
 ## 📂 GitHub Repository
 
-https://github.com/GladysGifty/AI-QuizManagement-System
+[https://github.com/GladysGifty/AI-QuizManagement-System](https://github.com/GladysGifty/AI-Quiz-Management-System)
 
 ---
 
